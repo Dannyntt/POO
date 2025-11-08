@@ -50,18 +50,6 @@ Two datasets are used:
 
 ---
 
-## ⚙️ Implementation Details
-
-### 🔹 Normal Equation
-
-The model parameters are computed using:
-
-\[
-W = (X^T X)^{-1} X^T y
-\]
-
-Implemented through manual matrix operations in C++ (`transpose`, `multiply`, `invert`).
-
 ## 📂 Project Structure
 
 ```
